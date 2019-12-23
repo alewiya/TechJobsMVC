@@ -93,6 +93,7 @@ namespace TechJobs.Models
 
                 if (aValue.ToLower().Contains(value.ToLower()))
                 {
+
                     jobs.Add(row);
                 }
             }
